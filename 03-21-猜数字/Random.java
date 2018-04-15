@@ -28,8 +28,6 @@ public class Random {
                 ret += 1;
             }
         }
-        if(answer == num){
-           System.out.printf("恭喜您猜对了，正确答案是%d,您一共猜了%d次",answer,ret);
-       }
+           System.out.printf("恭喜您猜对了，正确答案是%d,您一共猜了%d次",answer,ret)；
     }
 }
